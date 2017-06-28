@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task"><span style="color:red;">Add Item</span></label><input id="new-task" type="text" placeholder="Add your to-do tasks here"><button>Add</button>
+      </p>
+      
+      <h3 style="color:blue;">Todo</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox">
+        <label>Writing articles</label>
+        <input type="text">
+        <button class="edit">Edit</button>
+        <button class="edit">Add</button>
+        <button class="delete">Delete</button>
+        <button class="time">Time</button>
+         <input type="checkbox"><p style="color:red;">urgent</p>
+        </li>
+        <li class="editMode"><input type="checkbox">
+        <label>Reading</label>
+        <input type="text" value="Reading">
+        <button class="edit">Edit</button>
+        <button class="edit">Add</button>
+        <button class="delete">Delete</button>
+          <button class="time">Time</button>
+        <input type="checkbox"><p style="color:red;">urgent</p></li>
+        
+      </ul>
+      
+      <h3 style="color:green;">Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>cooking time</label><input type="text">
+        <button class="edit">Edit</button>
+        <button class="edit">Add</button>
+        <button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
